@@ -118,19 +118,19 @@ img {
 }
 /* line 45, ../sass/objects/board/_size.scss */
 .playable-area .tile:first-child {
-  border-top-left-radius: 25px;
+  border-top-left-radius: .6em;
 }
 /* line 49, ../sass/objects/board/_size.scss */
 .playable-area .tile:nth-child(10) {
-  border-top-right-radius: 25px;
+  border-top-right-radius: .6em;
 }
 /* line 53, ../sass/objects/board/_size.scss */
 .playable-area .tile:nth-child(91) {
-  border-bottom-left-radius: 25px;
+  border-bottom-left-radius: .6em;
 }
 /* line 57, ../sass/objects/board/_size.scss */
 .playable-area .tile:nth-child(100) {
-  border-bottom-right-radius: 25px;
+  border-bottom-right-radius: .6em;
 }
 
 /* line 67, ../sass/objects/board/_size.scss */
@@ -187,7 +187,7 @@ img {
 }
 /* line 17, ../sass/objects/board/_color.scss */
 .board .miss {
-  background-color: #0033CC;
+  background-color: #080bb1;
 }
 /* line 21, ../sass/objects/board/_color.scss */
 .board .potential {
@@ -200,18 +200,19 @@ img {
 
 /* line 33, ../sass/objects/board/_color.scss */
 .human-board .ship {
-  background-color: gray;
+  background-color: #646060;  border: .15em ridge #502b2b;
 }
 
 /* line 39, ../sass/objects/board/_color.scss */
 .hit {
+
   background-color: red;
 }
 
 /* line 43, ../sass/objects/board/_color.scss */
 .ai-board .ship.end:not(.hit) {
   background-color: gray;
-  transition: background-color 1.0s ease;
+  transition: background-color 1.7s ease;
 }
 
 /* line 5, ../sass/objects/board/_board.scss */
@@ -299,7 +300,7 @@ img {
 }
 /* line 20, ../sass/sections/_sections.scss */
 .game-description dt {
-  color: white;
+  color: #e94040;
   font-size: 1.1em;
   font-weight: bold;
   text-shadow: 1px 1px #000;
