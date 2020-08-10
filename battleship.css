@@ -167,7 +167,7 @@ img {
   clear: both;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 1080px) {
   /* line 101, ../sass/objects/board/_size.scss */
   .board-wrap {
     margin-right: auto;
