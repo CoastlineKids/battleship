@@ -54,7 +54,7 @@ html {
 /* line 13, ../sass/elements/_elements.scss */
 body {
   position: relative;
-  background-color: #FFF;
+  background-color: #bbd;
   font-family: "Open Sans";
   overflow: auto;
   margin-bottom: 1em;
@@ -167,7 +167,7 @@ img {
   clear: both;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 760px) {
   /* line 101, ../sass/objects/board/_size.scss */
   .board-wrap {
     margin-right: auto;
