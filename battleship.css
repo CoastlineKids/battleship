@@ -14,7 +14,7 @@ button {
 
 /* line 14, ../sass/elements/_buttons.scss */
 button + button {
-  margin-left: 2em;
+  margin-left: 2.2em;
 }
 
 /* line 18, ../sass/elements/_buttons.scss */
