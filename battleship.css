@@ -118,7 +118,7 @@ img {
 }
 /* line 45, ../sass/objects/board/_size.scss */
 .playable-area .tile:first-child {
-  border-top-left-radius: .6em;
+  border-top-left-radius: 2.6em;
 }
 /* line 49, ../sass/objects/board/_size.scss */
 .playable-area .tile:nth-child(10) {
@@ -211,7 +211,7 @@ img {
 
 /* line 43, ../sass/objects/board/_color.scss */
 .ai-board .ship.end:not(.hit) {
-  background-color: gray;
+  background-color: #725555;
   transition: background-color 1.7s ease;
 }
 
@@ -335,7 +335,7 @@ img {
 }
 /* line 58, ../sass/sections/_sections.scss */
 .ship-list li .remove {
-  display: inline-block;
+  display: block;
   float: right;
   width: 15px;
   color: red;
